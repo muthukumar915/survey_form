@@ -3,10 +3,10 @@
 I have created a simple survey form using html.This form is created to get variety of user data. 
 
 survey-form/<br>
-│
-├── index.html    # Main HTML file
-├── style.css     # CSS file for styling
-└── README.md     # This file
+│<br>
+├── index.html    # Main HTML file<br>
+├── style.css     # CSS file for styling<br>
+└── README.md     # This file<br>
 
 
 contact:
