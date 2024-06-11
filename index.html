@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Survey form</title>
+</head>
+<body>
+    
+    <form action="data.html"id="container">
+
+        <h1>Free Survey Form</h1>
+        <p>Thank you for filling this form</p>
+
+            <label for="username">Name</label>
+                <input id="username" type="text" placeholder="Ex:Muthu Kumar" required><br><br>
+            <label for="username">Email</label>
+                <input id="username" type="text"placeholder="Ex:mk@gamil.com" required>
+            <br><br>
+            <label>Age(optional)<label>
+            <br><br>
+                <input type="number" min="10" max="40" required><br><br>
+            <label>Which option best describes your current role?</label>
+            <br></br>
+    <select>
+        <option>Select Your role</option>
+        <option>Software Engineer</option>
+    <option>Full Stack Developer </option>
+    <option>Mobile App Developer</option>
+    </select>
+            <br><br>
+            <label>Do You Like Coding?</label>
+            <br><br>
+                <input type="radio" name="sel">Definitly
+            <br>
+                <input type="radio" name="sel">May B<br>
+
+                <input type="radio" name="sel">Not Sure<br><br>
+            <label>What would you like to see improved?</label>
+            <br>
+                <input type="checkbox">FrontEnd<br>
+                <input type="checkbox">BackEnd
+                <input type="checkbox">DataBas
+            <br><br>
+            <label>Any Comments or Suggestions</label>
+            <br><br>
+<textarea placeholder="Write a Comments here.." cols="25" rows="5"></textarea>
+<br><br>
+<button>
+    Submit
+</button>
+           </form>
+</body>
+</html>
